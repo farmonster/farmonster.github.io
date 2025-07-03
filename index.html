@@ -94,7 +94,7 @@
     <div id="home" class="section space-y-6">
       <h2 class="text-xl font-semibold"><img src="https://iili.io/FTjKSUX.png" alt="Dashboard" class="inline w-5 h-5 mr-1" />Dashboard</h2>
       <div class="bg-gray-800 p-4 rounded-xl text-center shadow relative overflow-hidden"
-           style="background-image: url('https://iili.io/FIhQez7.gif'); background-size: cover; background-position: center;">
+           style="background-image: url('https://iili.io/FaYOmAX.gif'); background-size: cover; background-position: center;">
         <div class="bg-black bg-opacity-60 p-6 rounded-xl">
           <button onclick="showSection('mining')" class="bg-green-500 hover:bg-green-600 px-4 py-2 rounded-full font-bold text-white transition">Start Mining</button>
         </div>
@@ -121,11 +121,11 @@
       <div class="bg-gray-800 p-4 rounded-xl">
         <h3 class="font-semibold mb-2"><img src="https://iili.io/FTjKix4.png" alt="Tasks" class="inline w-5 h-5 mr-1" />Tasks</h3>
         <ul class="text-sm text-gray-300">
-          <li class="flex justify-between items-center">Follow Farcaster Channel - <span class="text-green-400">+10 MON</span>
-            <button id="task-farcaster" onclick="completeTask('farcaster', 'https://warpcast.com/monsters')" class="bg-blue-500 text-white px-3 py-1 rounded hover:bg-blue-600 transition">Go</button>
+          <li class="flex justify-between items-center">Follow Telegram Channel - <span class="text-green-400">+10 MON</span>
+            <button id="task-telegram-channel" onclick="completeTask('telegram-channel', 'https://t.me/farmonster')" class="bg-blue-500 text-white px-3 py-1 rounded hover:bg-blue-600 transition">Go</button>
           </li>
-          <li class="flex justify-between items-center">Join Farcaster Community - <span class="text-green-400">+5 MON</span>
-            <button id="task-farcaster-community" onclick="completeTask('farcaster-community', 'https://warpcast.com/monsters/community')" class="bg-blue-500 text-white px-3 py-1 rounded hover:bg-blue-600 transition">Go</button>
+          <li class="flex justify-between items-center">Join Telegram Group - <span class="text-green-400">+5 MON</span>
+            <button id="task-telegram-group" onclick="completeTask('telegram-group', 'https://t.me/farmonsters')" class="bg-blue-500 text-white px-3 py-1 rounded hover:bg-blue-600 transition">Go</button>
           </li>
           <li class="flex justify-between items-center">Follow X - <span class="text-green-400">+5 MON</span>
             <button id="task-x" onclick="completeTask('x', 'https://x.com/Monsters44')" class="bg-blue-500 text-white px-3 py-1 rounded hover:bg-blue-600 transition">Go</button>
@@ -150,10 +150,10 @@
     <div id="mining" class="section hidden space-y-6">
       <h2 class="text-xl font-semibold"><img src="https://iili.io/FTjgdBI.png" alt="Start Bord" class="inline w-5 h-5 mr-1" />Start Bord</h2>
       <div id="mining-card" class="relative rounded-xl overflow-hidden text-center shadow-inner"
-           style="background-image: url('https://iili.io/FIkdc3x.gif'); background-size: cover; background-position: center;">
+           style="background-image: url('https://iili.io/FaYOmAX.gif'); background-size: cover; background-position: center;">
         <div class="bg-black bg-opacity-60 p-6">
           <button onclick="startMining()" class="bg-green-500 hover:bg-green-600 transition px-4 py-2 rounded-full text-white font-bold">
-            Start FREE Mining
+            Start Mining
           </button>
           <p class="mt-3 text-sm text-gray-100">Your Mining Power: <strong id="mining-power">12 Hash/s</strong></p>
           <p class="text-sm text-gray-100">Total Mined: <strong id="total-mined">0 MON</strong></p>
@@ -168,7 +168,7 @@
         <h2 class="text-lg font-semibold mt-6 mb-2"><img src="https://iili.io/FTjK8lt.png" alt="NFTs" class="inline w-5 h-5 mr-1" />Your NFTs</h2>
         <div class="space-y-4">
           <div class="nft-card bg-gray-800 p-3 rounded-lg flex items-center space-x-4 hover:shadow-lg hover:shadow-purple-500/50 transition-shadow">
-            <img src="https://iili.io/FIkdc3x.gif" alt="Neon Starter #1" class="w-16 h-16 rounded-md border border-purple-500" />
+            <img src="https://iili.io/FaYOmAX.gif" alt="Neon Starter #1" class="w-16 h-16 rounded-md border border-purple-500" />
             <div class="flex-1">
               <span class="text-sm font-semibold">Neon Starter #1 <img src="https://iili.io/FTMV4xp.png" alt="Verified" class="inline w-4 h-4 ml-1" /></span>
               <p class="text-gray-400 text-xs">12 Hash/s</p>
@@ -176,7 +176,7 @@
             <button id="claim-nft-0" onclick="claimFreeNFT()" class="bg-blue-500 text-white px-3 py-1 rounded hover:bg-blue-600 transition">Claim</button>
           </div>
           <div class="nft-card bg-gray-800 p-3 rounded-lg flex items-center space-x-4 hover:shadow-lg hover:shadow-purple-500/50 transition-shadow">
-            <img src="https://iili.io/FIkdhGa.gif" alt="Quantum Spark #2" class="w-16 h-16 rounded-md border border-purple-500" />
+            <img src="https://iili.io/FaYOyts.gif" alt="Quantum Spark #2" class="w-16 h-16 rounded-md border border-purple-500" />
             <div class="flex-1">
               <span class="text-sm font-semibold">Quantum Spark #2 <img src="https://iili.io/FTMV4xp.png" alt="Verified" class="inline w-4 h-4 ml-1" /></span>
               <p class="text-gray-400 text-xs">44 Hash/s</p>
@@ -184,7 +184,7 @@
             <button id="buy-nft-1" onclick="buyNFT(1, 0.025)" class="bg-yellow-500 text-black px-3 py-1 rounded hover:bg-yellow-600 transition">0.025 ETH</button>
           </div>
           <div class="nft-card bg-gray-800 p-3 rounded-lg flex items-center space-x-4 hover:shadow-lg hover:shadow-purple-500/50 transition-shadow">
-            <img src="https://iili.io/FIkdj6J.gif" alt="Astro Core #3" class="w-16 h-16 rounded-md border border-purple-500" />
+            <img src="https://iili.io/FaYOpNn.gif" alt="Astro Core #3" class="w-16 h-16 rounded-md border border-purple-500" />
             <div class="flex-1">
               <span class="text-sm font-semibold">Astro Core #3 <img src="https://iili.io/FTMV4xp.png" alt="Verified" class="inline w-4 h-4 ml-1" /></span>
               <p class="text-gray-400 text-xs">64 Hash/s</p>
@@ -246,12 +246,12 @@
       <h2 class="text-xl font-semibold"><img src="https://iili.io/FTjKix4.png" alt="Tasks" class="inline w-5 h-5 mr-1" />Daily Tasks</h2>
       <ul class="mt-2 space-y-3">
         <li class="bg-gray-800 p-3 rounded-lg flex justify-between items-center">
-          <span>Follow Farcaster Channel - <span class="text-green-400">+10 MON</span></span>
-          <button id="task-farcaster" onclick="completeTask('farcaster', 'https://warpcast.com/monsters')" class="bg-blue-500 text-white px-3 py-1 rounded hover:bg-blue-600 transition">Go</button>
+          <span>Follow Telegram Channel - <span class="text-green-400">+10 MON</span></span>
+          <button id="task-telegram-channel" onclick="completeTask('telegram-channel', 'https://t.me/farmonster')" class="bg-blue-500 text-white px-3 py-1 rounded hover:bg-blue-600 transition">Go</button>
         </li>
         <li class="bg-gray-800 p-3 rounded-lg flex justify-between items-center">
-          <span>Join Farcaster Community - <span class="text-green-400">+5 MON</span></span>
-          <button id="task-farcaster-community" onclick="completeTask('farcaster-community', 'https://warpcast.com/monsters/community')" class="bg-blue-500 text-white px-3 py-1 rounded hover:bg-blue-600 transition">Go</button>
+          <span>Join Telegram Group - <span class="text-green-400">+5 MON</span></span>
+          <button id="task-telegram-group" onclick="completeTask('telegram-group', 'https://t.me/farmonsters')" class="bg-blue-500 text-white px-3 py-1 rounded hover:bg-blue-600 transition">Go</button>
         </li>
         <li class="bg-gray-800 p-3 rounded-lg flex justify-between items-center">
           <span>Follow X - <span class="text-green-400">+5 MON</span></span>
@@ -284,20 +284,27 @@
 
   <!-- Script -->
   <script>
+    // Base URL for backend API
     const BASE_URL = 'http://localhost:3000';
+    // Base network contract address (replace with your deployed contract address)
+    const CONTRACT_ADDRESS = '0xYourContractAddressHere';
+    // Base network provider (e.g., Alchemy or Infura for Base)
+    const PROVIDER_URL = 'https://base-mainnet.g.alchemy.com/v2/YOUR_ALCHEMY_API_KEY';
+    // Simulated wallet for demo (replace with real wallet integration)
+    const ethers = window.ethers || {};
 
     // User data
     let farcasterId = '';
     let farcasterUid = '';
     let walletAddress = '';
     let userBalance = 0;
-    let freeNFTClaims = 0; // Track number of free NFT claims
+    let freeNFTClaims = 0;
     let userNFTs = [
-      { url: 'https://iili.io/FIkdc3x.gif', name: 'Neon Starter #1', hashRate: 12, owned: false, price: 0.001 },
-      { url: 'https://iili.io/FIkdhGa.gif', name: 'Quantum Spark #2', hashRate: 44, owned: false, price: 0.025 },
-      { url: 'https://iili.io/FIkdj6J.gif', name: 'Astro Core #3', hashRate: 64, owned: false, price: 0.04 },
-      { url: 'https://iili.io/FIkdSjt.gif', name: 'Cosmic Surge #4', hashRate: 84, owned: false, price: null },
-      { url: 'https://iili.io/FIkdXCg.gif', name: 'Galactic Prime #5', hashRate: 148, owned: false, price: null }
+      { url: 'https://iili.io/FaYOmAX.gif', name: 'Neon Starter #1', hashRate: 12, owned: false, price: 0.001, tokenId: null },
+      { url: 'https://iili.io/FaYOyts.gif', name: 'Quantum Spark #2', hashRate: 44, owned: false, price: 0.025, tokenId: null },
+      { url: 'https://iili.io/FaYOpNn.gif', name: 'Astro Core #3', hashRate: 64, owned: false, price: 0.04, tokenId: null },
+      { url: 'https://iili.io/FIkdSjt.gif', name: 'Cosmic Surge #4', hashRate: 84, owned: false, price: null, tokenId: null },
+      { url: 'https://iili.io/FIkdXCg.gif', name: 'Galactic Prime #5', hashRate: 148, owned: false, price: null, tokenId: null }
     ];
     let selectedNFTIndex = 0;
     let miningData = { power: 12, totalMined: 0, isMining: false };
@@ -307,8 +314,8 @@
 
     // Task status tracking
     let taskStatus = {
-      farcaster: 'Go',
-      'farcaster-community': 'Go',
+      'telegram-channel': 'Go',
+      'telegram-group': 'Go',
       x: 'Go',
       discord: 'Go',
       share: 'Go'
@@ -397,36 +404,58 @@
       // Farcaster Connect Button
       document.getElementById('connect-farcaster').addEventListener('click', async () => {
         try {
-          // Simulated Farcaster authentication
-          const user = {
-            id: 'user' + Math.floor(Math.random() * 100000),
-            username: 'farcaster_user' + Math.floor(Math.random() * 1000),
-            wallet: '0x' + Math.random().toString(16).slice(2, 42)
-          };
-          farcasterId = `@${user.username || user.id}`;
-          farcasterUid = user.id;
-          walletAddress = user.wallet;
-          localStorage.setItem('farcasterId', farcasterId);
-          localStorage.setItem('farcasterUid', farcasterUid);
-          localStorage.setItem('walletAddress', walletAddress);
-          document.getElementById('connect-farcaster').classList.add('hidden');
-          document.getElementById('logout-button').classList.remove('hidden');
-          document.getElementById('farcaster-info').classList.remove('hidden');
-          document.getElementById('farcaster-username').textContent = farcasterId;
-          document.getElementById('farcaster-uid').textContent = farcasterUid;
-          document.getElementById('wallet-address').textContent = walletAddress;
-          document.getElementById('referral-link').value = `https://warpcast.com/monsters?ref=${user.id}`;
-          if (!userNFTs[0].owned && freeNFTClaims < 5) {
-            await claimFreeNFT();
-          }
-          await fetchUserData();
-          updateBalance();
-          updateLeaderboard();
+          // Redirect to Warpcast OAuth
+          const clientId = 'YOUR_WARPCAST_CLIENT_ID'; // Replace with your Warpcast app client ID
+          const redirectUri = encodeURIComponent(window.location.href);
+          window.location.href = `https://warpcast.com/oauth/authorize?client_id=${clientId}&redirect_uri=${redirectUri}&response_type=code&scope=user:read wallet:read`;
         } catch (error) {
           console.error('Farcaster connection failed:', error);
-          window.location.href = `https://warpcast.com/monsters?connect=${window.location.href}`;
+          alert('Failed to initiate Farcaster connection. Please try again.');
         }
       });
+
+      // Handle OAuth callback
+      const urlParams = new URLSearchParams(window.location.search);
+      const code = urlParams.get('code');
+      if (code) {
+        try {
+          // Exchange code for access token
+          const response = await fetch(`${BASE_URL}/api/farcaster-auth`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ code, redirectUri: window.location.href })
+          });
+          const data = await response.json();
+          if (data.success) {
+            farcasterId = `@${data.user.username || data.user.id}`;
+            farcasterUid = data.user.id;
+            walletAddress = data.user.wallet || '0x' + Math.random().toString(16).slice(2, 42); // Fallback wallet
+            localStorage.setItem('farcasterId', farcasterId);
+            localStorage.setItem('farcasterUid', farcasterUid);
+            localStorage.setItem('walletAddress', walletAddress);
+            document.getElementById('connect-farcaster').classList.add('hidden');
+            document.getElementById('logout-button').classList.remove('hidden');
+            document.getElementById('farcaster-info').classList.remove('hidden');
+            document.getElementById('farcaster-username').textContent = farcasterId;
+            document.getElementById('farcaster-uid').textContent = farcasterUid;
+            document.getElementById('wallet-address').textContent = walletAddress;
+            document.getElementById('referral-link').value = `https://warpcast.com/monsters?ref=${farcasterUid}`;
+            if (!userNFTs[0].owned && freeNFTClaims < 5) {
+              await claimFreeNFT();
+            }
+            await fetchUserData();
+            updateBalance();
+            updateLeaderboard();
+            // Clear URL params
+            window.history.replaceState({}, document.title, window.location.pathname);
+          } else {
+            throw new Error(data.error || 'Authentication failed');
+          }
+        } catch (error) {
+          console.error('Farcaster auth callback failed:', error);
+          alert('Failed to authenticate with Farcaster. Please try again.');
+        }
+      }
     };
 
     // Logout function
@@ -436,9 +465,9 @@
       walletAddress = '';
       userBalance = 0;
       userRank = 'Not Ranked';
-      userNFTs = userNFTs.map(nft => ({ ...nft, owned: false }));
+      userNFTs = userNFTs.map(nft => ({ ...nft, owned: false, tokenId: null }));
       miningData = { power: 12, totalMined: 0, isMining: false };
-      taskStatus = { farcaster: 'Go', 'farcaster-community': 'Go', x: 'Go', discord: 'Go', share: 'Go' };
+      taskStatus = { 'telegram-channel': 'Go', 'telegram-group': 'Go', x: 'Go', discord: 'Go', share: 'Go' };
       localStorage.removeItem('farcasterId');
       localStorage.removeItem('farcasterUid');
       localStorage.removeItem('walletAddress');
@@ -492,6 +521,7 @@
             <div class="flex-1">
               <span class="text-sm font-semibold">${nft.name} <img src="https://iili.io/FTMV4xp.png" alt="Verified" class="inline w-4 h-4 ml-1" /></span>
               <p class="text-gray-400 text-xs">${nft.hashRate} Hash/s</p>
+              <p class="text-gray-400 text-xs">Token ID: ${nft.tokenId || 'N/A'}</p>
             </div>
           `;
           walletList.appendChild(card);
@@ -534,8 +564,8 @@
             button.disabled = true;
             localStorage.setItem('taskStatus', JSON.stringify(taskStatus));
             let reward = 0;
-            if (taskId === 'farcaster') reward = 10;
-            else if (taskId === 'farcaster-community') reward = 5;
+            if (taskId === 'telegram-channel') reward = 10;
+            else if (taskId === 'telegram-group') reward = 5;
             else if (taskId === 'x') reward = 5;
             else if (taskId === 'discord') reward = 5;
             else if (taskId === 'share') reward = 3;
@@ -601,6 +631,7 @@
             <div class="flex-1">
               <span class="text-sm font-semibold">${nft.name} <img src="https://iili.io/FTMV4xp.png" alt="Verified" class="inline w-4 h-4 ml-1" /></span>
               <p class="text-gray-400 text-xs">${nft.hashRate} Hash/s</p>
+              <p class="text-gray-400 text-xs">Token ID: ${nft.tokenId || 'N/A'}</p>
             </div>
           `;
           nftList.appendChild(card);
@@ -630,7 +661,7 @@
           leaderboard.forEach((user, index) => {
             const li = document.createElement('li');
             li.className = index < 3 ? 'bg-gradient-to-r from-purple-600 to-blue-600 p-3 rounded-lg text-base font-semibold shadow-lg shadow-purple-500/50' : 'bg-gray-800 p-3 rounded';
-            li.innerHTML = `${index < 3 ? ['🥇', '🥈', '🥉'][index] : `${index + 1}.`} ${user.username} - ${user.balance.toFixed(2)} MON`;
+            li.innerHTML = `${index < 3 ? ['🥇', '🌈', '🥉'][index] : `${index + 1}.`} ${user.username} - ${user.balance.toFixed(2)} MON`;
             leaderboardEntries.appendChild(li);
           });
           document.getElementById('leaderboard-list').classList.remove('hidden');
@@ -693,11 +724,12 @@
         const response = await fetch(`${BASE_URL}/api/claim-nft`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ farcasterId, nftIndex: 0 })
+          body: JSON.stringify({ farcasterId, walletAddress, nftIndex: 0 })
         });
         const data = await response.json();
         if (data.success) {
           userNFTs[0].owned = true;
+          userNFTs[0].tokenId = data.tokenId; // Token ID from contract
           freeNFTClaims++;
           miningData.power = userNFTs[0].hashRate;
           localStorage.setItem('userNFTs', JSON.stringify(userNFTs));
@@ -721,9 +753,9 @@
       }
     }
 
-    // Buy NFT with ETH
+    // Buy NFT with ETH on Base Network
     async function buyNFT(index, ethPrice) {
-      if (!farcasterId) {
+      if (!farcasterId || !walletAddress) {
         alert('Please connect your Farcaster account first.');
         return;
       }
@@ -732,14 +764,35 @@
         return;
       }
       try {
+        // Initialize ethers provider and signer
+        if (!window.ethereum) {
+          alert('Please install MetaMask or another Web3 wallet.');
+          return;
+        }
+        const provider = new ethers.providers.Web3Provider(window.ethereum);
+        await provider.send('eth_requestAccounts', []);
+        const signer = provider.getSigner();
+        const contract = new ethers.Contract(CONTRACT_ADDRESS, [
+          'function mintNFT(address to, uint256 nftIndex) external payable returns (uint256)'
+        ], signer);
+
+        // Send transaction
+        const tx = await contract.mintNFT(walletAddress, index, {
+          value: ethers.utils.parseEther(ethPrice.toString()),
+          gasLimit: 200000
+        });
+        await tx.wait();
+
+        // Update backend
         const response = await fetch(`${BASE_URL}/api/buy-nft`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ farcasterId, walletAddress, nftIndex: index, ethPrice, receiver: '@MonstersAdmin' })
+          body: JSON.stringify({ farcasterId, walletAddress, nftIndex: index, ethPrice, txHash: tx.hash })
         });
         const data = await response.json();
         if (data.success) {
           userNFTs[index].owned = true;
+          userNFTs[index].tokenId = data.tokenId;
           localStorage.setItem('userNFTs', JSON.stringify(userNFTs));
           document.getElementById(`buy-nft-${index}`).textContent = 'Owned';
           document.getElementById(`buy-nft-${index}`).classList.remove('bg-yellow-500', 'hover:bg-yellow-600');
@@ -756,7 +809,7 @@
           renderNFTWallet();
           alert(`NFT Purchased for ${ethPrice} ETH!`);
         } else {
-          alert('Failed to purchase NFT: ' + (data.error || 'Unknown error'));
+          alert('Failed to record NFT purchase: ' + (data.error || 'Unknown error'));
         }
       } catch (error) {
         console.error('Buy NFT failed:', error);
